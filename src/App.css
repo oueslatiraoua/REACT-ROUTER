@@ -1,8 +1,9 @@
 .App {
   text-align: center;
   background-color: black;
-  min-width: 100 vh;
+  min-width: 100vh;
   opacity: 0.85;
+  height: 100%;
 }
 
 .App-logo {

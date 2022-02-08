@@ -70,6 +70,7 @@ function App() {
           path="/"
           element={
             <>
+              <Addbutton getdata={getdata} />
               <MovieCard
                 Movies={movielist.filter(
                   (movie) =>
@@ -77,7 +78,6 @@ function App() {
                     movie.rating >= rate
                 )}
               />
-              <Addbutton getdata={getdata} />
             </>
           }
         />

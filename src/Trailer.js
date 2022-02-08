@@ -7,7 +7,7 @@ const Trailer = ({ movies }) => {
   const movietrailer = movies.find((m) => m.id === Id);
 
   return (
-    <div>
+    <div style={{ height: "100vh" }}>
       <h1>{movietrailer.title}</h1>
 
       <Figure.Image

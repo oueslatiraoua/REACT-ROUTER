@@ -7,6 +7,7 @@ const Description = ({ movies }) => {
   return (
     <div
       style={{
+        height: "100vh",
         marginLeft: "500px",
         opacity: "0.7",
         color: "black",
